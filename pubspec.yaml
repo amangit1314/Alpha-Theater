@@ -1,0 +1,28 @@
+name: alpha_theatre
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3
+  flutter_staggered_grid_view: ^0.4.0
+  google_fonts: ^2.1.0
+  lint: ^1.5.3
+  material_design_icons_flutter: ^4.0.5955
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
